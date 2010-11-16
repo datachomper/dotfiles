@@ -7,3 +7,5 @@
 	from = Russ Meyerriecks <rmeyerriecks@digium.com>
 [color]
 	diff = auto
+[alias]
+	ll = log --pretty=oneline --abbrev-commit --decorate
