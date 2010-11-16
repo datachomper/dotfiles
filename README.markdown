@@ -1,4 +1,5 @@
 Installation
+-----------
 
 	git clone git://github.com/datachomper/dotfiles.git
 
@@ -9,6 +10,7 @@ http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-patho
 	git submodule update	
 
 Passwords
+--------
 	.muttrc: Modify imap_pass
 
 
