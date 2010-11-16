@@ -11,4 +11,4 @@ set tags=tags,/usr/src/linux-2.6/tags
 "set tags=tags
 "let Tlist_Show_One_File = 1
 set background=dark
-set laststatus=1
+set laststatus=2
