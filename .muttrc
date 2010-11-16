@@ -1,0 +1,31 @@
+set imap_user = "rmeyerriecks"
+#set imap_pass = ""
+
+set smtp_url = "smtp://rmeyerriecks@zimbra.digium.com"
+set from = "rmeyerriecks@digium.com"
+set realname = "Russ Meyerriecks"
+set editor="vim +/^$ ++1"
+
+set folder = "imap://zimbra.digium.com:143"
+set spoolfile = "+INBOX"
+set postponed = "+INBOX/Drafts"
+
+set header_cache=~/.mutt/cache/headers
+set message_cachedir=~/.mutt/cache/bodies
+set certificate_file=~/.mutt/certificates
+set move=no
+set sort = 'reverse-threads'
+set sort_aux = 'last-date-received'
+set imap_check_subscribed
+
+ignore "Authentication-Results:"
+ignore "DomainKey-Signature:"
+ignore "DKIM-Signature:"
+hdr_order Date From To Cc
+
+# Git patch syntax highlighting
+color body brightred black "^-.*"
+color body brightgreen black "^[+].*"
+color body brightwhite black "^diff --git.*"
+color body brightwhite black "^index [a-f0-9].*"
+color body brightyellow black "^@@.*"
