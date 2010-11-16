@@ -1,0 +1,9 @@
+syntax on
+set cindent
+set nowrap
+set tags=tags,/usr/src/linux-2.6/tags
+"set tags=tags
+filetype on
+"let Tlist_Show_One_File = 1
+set background=dark
+set laststatus=1
