@@ -1,7 +1,7 @@
 [user]
 	name = Russ Meyerriecks
 	email = rmeyerriecks@digium.com
-[sendmail]
+[sendemail]
 	smtpserver = zimbra.digium.com
 	smtpuser = rmeyerriecks
 	from = Russ Meyerriecks <rmeyerriecks@digium.com>
